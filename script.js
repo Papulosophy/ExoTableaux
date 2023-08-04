@@ -43,10 +43,23 @@ function myAlphabetLength() {
 myAlphabetLength();
 
 // Exo 2
+// afficher tous les éléments d'un tableau .forEach()
+/*
+    // Données
+    let fruits = ["Pomme", "Orange", "Fraise"];
 
+    // Traitement
+    fruits.forEach((fruit) => {
+        console.log(fruit); // Résultat : Pomme Orange Fraise
+    });
+
+*/
+// Données
 let planets = ["terre", "venus", "mars", "mercure", "saturne"];
-console.log(terre);
-console.log(venus);
-console.log(mars);
-console.log(mercure);
-console.log(saturne);
+// Traitement
+
+console.log("terre", "venus", "mars", "mercure", "saturne");
+
+planets.forEach((planet) => {
+  console.log(planet);
+});
